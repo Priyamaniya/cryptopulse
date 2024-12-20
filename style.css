@@ -985,7 +985,7 @@ box-sizing: border-box;
     transform: translate(-50%,-50%);
     font-size: 40px;
 }
-/*----------------------------------------------page-2----------carousel-iteam-----------------------------------------------*/
+/*----------------------------carousel-iteam-----------------------------------------------*/
 .carousel-iteam{
     font-family: Arial, sans-serif;
     display: flex;
@@ -1353,7 +1353,69 @@ p {
   color: #9ca3af;
 }
 /*-------------------------------------------------page-3------------------------------------------------------*/
+.creator-header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("image/background\ page-3.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav.creator-logo{
+  float: left;
+  display: flex;
+}
 
+.creator-navbar{ 
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+padding: 20px;
+width: 100%;
+height: 130px;
+position: relative;
+background-color: #FFFFFF14;
+box-sizing: border-box;
+}
+.creator-navbar-menu ul{
+  float: right;
+  display: flex;
+  list-style: none;
+}
+
+.creator-navbar-menu li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 12px;
+ 
+}
+.creator-navbar-menu a{
+  text-decoration: none;
+  color: #fff;
+  margin: 12px;
+  padding:8px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Poppins','sans-serif';
+  border-radius: 5px;
+  transition: 0.3s;
+  
+}
+.creator-navbar-menu a:hover{
+  color: #21E7B7;
+
+}
+.creator-text{
+  font-family: 'Poppins','sans-serif';
+  width:40%;
+  color: #f2f2f2;
+  position: absolute;
+  top:60%;
+  left:35%;
+  transform: translate(-50%,-50%);
+  font-size: 40px;
+}
 
 
 
