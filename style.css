@@ -1608,6 +1608,165 @@ h3 {
 .footer-bottom-3 a:hover {
   color: #9ca3af;
 }
+/*-------------------------------------------------------pages-4--------------------------------------------------------*/
+.page-header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("image/background\ page-4\ \(1\).png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav.page-logo{
+  float: left;
+  display: flex;
+}
+
+.page-navbar{ 
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+padding: 20px;
+width: 100%;
+height: 130px;
+position: relative;
+background-color: #FFFFFF14;
+box-sizing: border-box;
+}
+.page-navbar-menu ul{
+  float: right;
+  display: flex;
+  list-style: none;
+}
+
+.page-navbar-menu li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 12px;
+ 
+}
+.page-navbar-menu a{
+  text-decoration: none;
+  color: #fff;
+  margin: 12px;
+  padding:8px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Poppins','sans-serif';
+  border-radius: 5px;
+  transition: 0.3s;
+  
+}
+.page-navbar-menu a:hover{
+  color: #21E7B7;
+
+}
+.page-text{
+  font-family: 'Poppins','sans-serif';
+  width:40%;
+  color: #f2f2f2;
+  position: absolute;
+  top:50%;
+  left:35%;
+  transform: translate(-50%,-50%);
+  font-size: 40px;
+}
+/*-----------------profile-----------------------*/
+.profile-page{
+  bottom: 150%;
+  
+}
+.profile-container {
+  max-width: 850px;
+  margin: 20px auto;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 280px;
+  height: 305px;
+  margin-top: 2px;
+  margin-right: 20px;
+  border-radius: 0;
+  margin-bottom: -25px;
+}
+
+.profile-details {
+  flex: 1;
+}
+
+.profile-details h1 {
+  font-size: 34px;
+  box-shadow: rgba(0, 0, 0, 0.1);
+  margin: 0;
+}
+
+
+.profile-details p {
+  margin: 16px 0;
+  font-size: 16px;
+
+}
+
+.page-bio{
+  color: #666;
+  font-weight: 100;
+}
+
+.location,
+.join-date{
+  font-size: 14px;
+  color: #555;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+.join-date{
+  margin-bottom: 10px;
+}
+
+.profile-link {
+  display: inline-block;
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 10px;
+  width: 10px;
+}
+
+.profile-link:hover {
+  text-decoration: underline;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -35px;
+  width: 785px;
+  
+}
+
+.message-btn{
+  padding: 10px 50px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.message-btn{ 
+    background: linear-gradient(90deg, #1B63FF, #21E7B7);
+    color: #FFF;
+}
+
 
 
 
