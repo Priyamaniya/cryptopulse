@@ -539,4 +539,122 @@ body {
 .share-icon {
   font-size: 18px;
 }
+.pagination {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+}
 
+button {
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  margin: 0 5px; /* Add spacing between buttons */
+  border-radius: 3px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+button.active {
+  background-color: #007bff; /* Blue background for active button */
+  color: #fff;
+}
+
+button.prev,
+button.next {
+  width: 30px; /* Adjust width as needed */
+  text-align: center;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------*/
+.footer-4{
+  background-color:#131927 ;
+  color: #FFFFFF;
+  padding:  20px;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  margin-top: -10px;
+
+}
+
+.footer-container-4{
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.footer-logo-4{
+    margin-left: 200px;
+    display: flex;
+    margin-top: 50px;
+}
+.footer-main-4{
+  max-width: 430px;
+    margin-right: 124px;
+    margin-left: -210px;
+}
+.footer-main-4 p {
+  margin: 50px;
+  font-size: 13px;
+  color: #FFFFFF;
+  margin-top: 150px;
+  font-weight: 400;
+  font-family:'Poppins',sans-serif;
+}
+
+.footer-section-4 {
+  flex: 1;
+  min-width: 150px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  letter-spacing: 0000.5sem;
+  
+}
+
+.footer-section-4 h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.footer-section-4 ul {
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+  word-spacing: 5px; 
+}
+
+.footer-section-4 ul li {
+  margin-bottom: 10px 0;
+}
+
+.footer-section-4 ul li a {
+  text-decoration: none;
+  color: #d1d5db;
+  transition: color 0.3s;
+  margin-bottom: 5px;
+  
+}
+
+.footer-section-4 ul li a:hover {
+  color: #f3f4f6;
+}
+
+.footer-bottom-4 {
+  text-align: right;
+  padding-top: 20px;
+  border-top: 1px solid #2f3e53;
+  margin-top: 20px;
+}
+
+.footer-bottom-4 a {
+  color: #f3f4f6;
+  text-decoration: none;
+}
+
+.footer-bottom-4 a:hover {
+  color: #9ca3af;
+}
