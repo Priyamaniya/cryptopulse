@@ -3382,7 +3382,6 @@ box-sizing: border-box;
   transform: translate(-50%,-50%);
   font-size: 40px;
 }
-
 /*-----------------profile-----------------------*/
 .profile-featured-items{
   font-family: 'Poppins','sans-serif';
@@ -3401,13 +3400,11 @@ box-sizing: border-box;
   position: absolute;
   z-index: 1;
 }
-
 .profile-header-featured-items{
   display: flex;
   align-items: center;
   margin-bottom: 20px;
 }
-
 .profile-image-featured-items{
   width: 280px;
   height: 305px;
@@ -3416,29 +3413,23 @@ box-sizing: border-box;
   border-radius: 0;
   margin-bottom: -25px;
 }
-
 .profile-details-featured-items {
   flex: 1;
 }
-
 .profile-details-featured-items h1{
   font-size: 34px;
   color: #000;
   margin: 0;
 }
-
-
 .profile-details-featured-items p {
   margin: 16px 0;
   font-size: 16px;
 
 }
-
 .featured-items-bio{
   color: #666;
   font-weight: 100;
 }
-
 .location-featured-items,
 .join-date-featured-items{
   font-size: 14px;
@@ -3491,7 +3482,6 @@ box-sizing: border-box;
   flex-direction: column;
   margin-top: -550px;
 }
-
 /* Profile Stats Box */
 .profile-stats-featured-items {
   display: flex;
@@ -3500,9 +3490,7 @@ box-sizing: border-box;
   padding: 20px;
   background: #F9F9F9;;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-
 }
-
 /* Line Under the Box */
 .vertical-line-featured-items {
   height: 80px;
@@ -3510,10 +3498,7 @@ box-sizing: border-box;
   margin-top: -85px;
   width: 2px; 
   margin-left: 122px;
-  
- 
 }
-
 /* Stats Section */
 .stats-featured-items {
   display: flex;
@@ -3785,7 +3770,7 @@ box-sizing: border-box;
 .featured-place-bid-2:hover {
   opacity: 0.9;
 }
-/*------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------butoon----------------------------------------------------*/
   .featured-pagination {
     display: flex;
     margin-left: 1250px; 
@@ -3906,4 +3891,876 @@ box-sizing: border-box;
   
   .featured-footer-bottom-4 a:hover {
     color: #9ca3af;
+  }
+  /*---------------------------------------------------total-sold-16-------------------------------------------------------------*/
+  .total-sold-header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("image/background\ page-4\ \(1\).png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  nav.total-sold-logo{
+    float: left;
+    display: flex;
+  }
+  
+  .total-sold-navbar{ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+  height: 130px;
+  position: relative;
+  background-color: #FFFFFF14;
+  box-sizing: border-box;
+  }
+  .total-sold-navbar-menu ul{
+    float: right;
+    display:flex;
+    list-style: none;
+  }
+  
+  .total-sold-navbar-menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 12px;
+   
+  }
+  .total-sold-navbar-menu a{
+    text-decoration: none;
+    color: #fff;
+    margin: 12px;
+    padding:8px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins','sans-serif';
+    border-radius: 5px;
+    transition: 0.3s;
+    
+  }
+  .total-sold-navbar-menu a:hover{
+    color: #21E7B7;
+  
+  }
+  .total-sold-text{
+    font-family: 'Poppins','sans-serif';
+    width:40%;
+    color: #f2f2f2;
+    position: absolute;
+    top:50%;
+    left:35%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+  }
+  /*-----------------profile-----------------------*/
+.profile-total-sold{
+  font-family: 'Poppins','sans-serif';
+  padding: 60px;
+  color: #333;
+  justify-content: center;
+  
+}
+.profile-container-total-sold{
+  max-width: 850px;
+  margin: 60px 150px;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: -250px;
+  position: absolute;
+  z-index: 1;
+}
+.profile-header-total-sold{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.profile-image-total-sold{
+  width: 280px;
+  height: 305px;
+  margin-top: 2px;
+  margin-right: 20px;
+  border-radius: 0;
+  margin-bottom: -25px;
+}
+.profile-details-total-sold {
+  flex: 1;
+}
+.profile-details-total-sold h1{
+  font-size: 34px;
+  color: #000;
+  margin: 0;
+}
+.profile-details-total-sold p {
+  margin: 16px 0;
+  font-size: 16px;
+
+}
+.total-sold-bio{
+  color: #666;
+  font-weight: 100;
+}
+.location-total-sold,
+.join-date-total-sold{
+  font-size: 14px;
+  color: #555;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+.join-date-total-sold{
+  margin-bottom: 10px;
+}
+
+.profile-total-sold{
+  display: inline-block;
+  color: #007bff;
+  text-decoration:none;
+  margin-top: 10px;
+  width: 10px;
+}
+.actions-total-sold{
+  display: flex;
+  justify-content: space-around;
+  margin-top: -35px;
+  width: 785px;
+  
+}
+.message-btn-total-sold{
+  padding: 10px 50px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.message-btn-total-sold{ 
+    background: linear-gradient(90deg, #1B63FF, #21E7B7);
+    color: #FFF;
+}
+/*--------------------------------follow-----------------------------------*/
+.follow-section-total-sold{
+  font-family: 'Poppins','sans-serif';
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.follow-container-total-sold{
+  width: 90%;
+  max-width: 1350px;
+  flex-direction: column;
+  margin-top: -550px;
+}
+/* Profile Stats Box */
+.profile-stats-total-sold{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background: #F9F9F9;;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* Line Under the Box */
+.vertical-line-total-sold{
+  height: 80px;
+  background-color: #e0e0e0;
+  margin-top: -85px;
+  width: 2px; 
+  margin-left: 122px;
+}
+/* Stats Section */
+.stats-total-sold {
+  display: flex;
+  gap: 80px;
+  margin-bottom: 2px;
+}
+
+.stat-item-total-sold{
+  text-align: center;
+}
+
+.stat-item-total-sold h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #888;
+  font-family: 'Poppins','sans-serif';
+}
+
+.stat-item-total-sold p {
+  margin: 15px  0px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Actions Section */
+.actions-total-sold{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.follow-btn-total-sold{
+  background: linear-gradient(90deg, #1B63FF, #21E7B7);
+  color: white;
+  border: none;
+  padding: 10px 85px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: -40px;
+  margin-bottom: -5px;
+}
+
+.follow-btn-total-sold:hover {
+  background: linear-gradient(90deg, #66d3fa, #1e87f0);
+}
+
+.share-total-sold{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.copy-box-total-sold{
+  border: 1px solid rgb(232, 227, 227);
+  padding: 0px 20px;
+}
+
+.box-copy-total-sold{
+ margin-bottom: -20px;
+  margin-left: 170px;
+  margin-right: 20px;
+}
+
+.share-icon-total-sold{
+  font-size: 18px;
+}
+/*---------------------------in nav-bar -----------------------------------*/
+.normal-navbar-total-sold{ 
+  font-family: 'Poppins','sans-serif';
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  }
+
+  .nav-normal-container-total-sold{
+  width: 90%;
+  max-width: 1350px;
+  flex-direction: column;
+  margin-top: -1130px;
+  }
+  
+  .nav-normal-total-sold{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background: #F9F9F9;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .normal-nav-total-sold ul{
+    float: right;
+    display: flex;
+    list-style: none;
+  }
+  
+  .normal-nav-total-sold li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 12px;
+   
+  }
+  .normal-nav-total-sold a{
+    text-decoration: none;
+    color: #000 ;
+    margin: 12px;
+    padding:50px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins','sans-serif';
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  /*--------------------------------------------------bid's-card-------------------------------------------------------*/
+.total-sold-1-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  padding: 180px;
+  gap: -20px;
+  margin-top: -650px;
+}
+.total-sold-1-card {
+  width: 350px;
+  height: 580px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  margin-top: 0px;
+}
+
+.total-sold-image-1,
+.total-sold-image-2,
+.total-sold-image-3 {
+  position: relative;
+  width: 100%;
+  height: 270px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow:hidden;
+}
+.total-sold-image-1 img{
+  height: 270px;
+  width: 340px;
+  border-radius: 10px;
+  background:#AFD25E;
+}
+.total-sold-image-2 img {
+  height:270px;
+  width: 340px;
+  border-radius: 10px;
+  background:#9CBAF2;
+}
+.total-sold-image-3 img{
+   height: 320px;
+  border-radius: 10px;
+  background:#ABC161;
+}
+
+.total-sold-featured{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #fbbf24;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+
+}
+.total-sold-timer-2{
+  position: absolute;
+  bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #000;
+  padding: 5px 15px;
+  font-size: 16px;
+  font-weight: 500;
+
+}
+.total-sold-heart-2-icon{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+
+}
+.total-sold-info-2{
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #FFFFFF;
+
+}
+.total-sold-user-2{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: flex;
+
+}
+.total-sold-info-2 h4{
+  margin: 20px 30px;
+  font-size: 20px;
+  color: #555;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+.total-sold-info .user-2 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+.total-sold-title-2{
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  font-family: 'Poppins', sans-serif;
+
+}
+.total-sold-current-bid-2{
+  font-size: 14px;
+  color: #777;
+  font-family: 'Poppins', sans-serif;
+  margin: 10px 0;
+
+
+}
+.total-sold-bid-amount-2{
+  font-size: 18px;
+  font-weight: 700;
+  color: #1B63FF;
+  float: left;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 2px;
+
+}
+.total-sold-activity-2{
+  float: right;
+  font-family: 'Poppins', sans-serif;
+  color: #777;
+
+}
+.total-sold-place-bid-2{
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(92.74deg, #1B63FF 0.47%, #21E7B7 100%);
+  color: #fff;
+  width: 100%;
+  height: 40px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  
+
+}
+.total-sold-place-bid-2:hover {
+  opacity: 0.9;
+}
+/*--------------------------------------------butoon----------------------------------------------------*/
+.total-sold-pagination {
+  display: flex;
+  margin-left: 1250px; 
+  margin-top: -130px;/* Center the buttons horizontally */
+}
+
+.total-sold-pagination button {
+  border: 1px solid #ccc;
+  padding: 15px 20px;
+  margin: 0 5px; /* Add spacing between buttons */
+  border-radius: 3px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.total-sold-pagination button.active{
+  background-color:#007bff; /* Blue background for active button */
+  color: #fff;
+}
+.total-sold-pagination button:hover{
+  background-color:#007bff; /* Blue background for active button */
+  color: #fff;
+}
+
+.total-sold-pagination button.prev,
+.total-sold--pagination button.next {
+  width: 30px; /* Adjust width as needed */
+  text-align: center;
+}
+/*---------------------------------------------footer4.3------------------------------------------------*/
+.total-sold-footer-4{
+  background-color:#131927 ;
+  color: #FFFFFF;
+  padding:  20px;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  margin-top: 50px;
+
+}
+
+.total-sold-footer-container-4{
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.total-sold-footer-logo-4{
+    margin-left: 200px;
+    display: flex;
+    margin-top: 50px;
+}
+.total-sold-footer-main-4{
+  max-width: 430px;
+    margin-right: 124px;
+    margin-left: -210px;
+}
+.total-sold-footer-main-4 p {
+  margin: 50px;
+  font-size: 13px;
+  color: #FFFFFF;
+  margin-top: 150px;
+  font-weight: 400;
+  font-family:'Poppins',sans-serif;
+}
+
+.total-sold-footer-section-4 {
+  flex: 1;
+  min-width: 150px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  letter-spacing: 0000.5sem;
+  
+}
+
+.total-sold-footer-section-4 h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.total-sold-footer-section-4 ul {
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+  word-spacing: 5px; 
+}
+
+.total-sold-footer-section-4 ul li {
+  margin-bottom: 10px 0;
+}
+
+.total-sold-footer-section-4 ul li a {
+  text-decoration: none;
+  color: #d1d5db;
+  transition: color 0.3s;
+  margin-bottom: 5px;
+  
+}
+
+.total-sold-footer-section-4 ul li a:hover {
+  color: #f3f4f6;
+}
+
+.total-sold-footer-bottom-4 {
+  text-align: right;
+  padding-top: 20px;
+  border-top: 1px solid #2f3e53;
+  margin-top: 20px;
+}
+
+.total-sold-footer-bottom-4 a {
+  color: #f3f4f6;
+  text-decoration: none;
+}
+
+.total-sold-footer-bottom-4 a:hover {
+  color: #9ca3af;
+}
+/*---------------------------------------------------total-bids-16-------------------------------------------------------------*/
+.total-bids-header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("image/background\ page-4\ \(1\).png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav.total-bids-logo{
+  float: left;
+  display: flex;
+}
+
+.total-bids-navbar{ 
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+padding: 20px;
+width: 100%;
+height: 130px;
+position: relative;
+background-color: #FFFFFF14;
+box-sizing: border-box;
+}
+.total-bids-navbar-menu ul{
+  float: right;
+  display:flex;
+  list-style: none;
+}
+
+.total-bids-navbar-menu li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 12px;
+ 
+}
+.total-bids-navbar-menu a{
+  text-decoration: none;
+  color: #fff;
+  margin: 12px;
+  padding:8px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Poppins','sans-serif';
+  border-radius: 5px;
+  transition: 0.3s;
+  
+}
+.total-bids-navbar-menu a:hover{
+  color: #21E7B7;
+
+}
+.total-bids-text{
+  font-family: 'Poppins','sans-serif';
+  width:40%;
+  color: #f2f2f2;
+  position: absolute;
+  top:50%;
+  left:35%;
+  transform: translate(-50%,-50%);
+  font-size: 40px;
+}
+/*-----------------profile-----------------------*/
+.profile-total--bids{
+font-family: 'Poppins','sans-serif';
+padding: 60px;
+color: #333;
+justify-content: center;
+
+}
+.profile-container-total-bids{
+max-width: 850px;
+margin: 60px 150px;
+background: #fff;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+padding: 20px;
+margin-top: -250px;
+position: absolute;
+z-index: 1;
+}
+.profile-header-total-bids{
+display: flex;
+align-items: center;
+margin-bottom: 20px;
+}
+.profile-image-total-bids{
+width: 280px;
+height: 305px;
+margin-top: 2px;
+margin-right: 20px;
+border-radius: 0;
+margin-bottom: -25px;
+}
+.profile-details-total-bids {
+flex: 1;
+}
+.profile-details-total-bids h1{
+font-size: 34px;
+color: #000;
+margin: 0;
+}
+.profile-details-total-bids p {
+margin: 16px 0;
+font-size: 16px;
+
+}
+.total-bids-bio{
+color: #666;
+font-weight: 100;
+}
+.location-total-bids,
+.join-date-total-bids{
+font-size: 14px;
+color: #555;
+margin-right: 50px;
+margin-bottom: 10px;
+}
+.join-date-total-bids{
+margin-bottom: 10px;
+}
+
+.profile-total-bids{
+display: inline-block;
+color: #007bff;
+text-decoration:none;
+margin-top: 10px;
+width: 10px;
+}
+.actions-total-bids{
+display: flex;
+justify-content: space-around;
+margin-top: -35px;
+width: 785px;
+
+}
+.message-btn-total-bids{
+padding: 10px 50px;
+border: none;
+cursor: pointer;
+font-size: 14px;
+margin-bottom: 0px;
+}
+
+.message-btn-total-bids{ 
+  background: linear-gradient(90deg, #1B63FF, #21E7B7);
+  color: #FFF;
+}
+/*--------------------------------follow-----------------------------------*/
+.follow-section-total-bids{
+font-family: 'Poppins','sans-serif';
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.follow-container-total-bids-5{
+width: 90%;
+max-width: 1350px;
+flex-direction: column;
+margin-top: -420px;
+}
+/* Profile Stats Box */
+.profile-stats-total-bids{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px;
+background: #F9F9F9;;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* Line Under the Box */
+.vertical-line-total-bids{
+height: 80px;
+background-color: #e0e0e0;
+margin-top: -85px;
+width: 2px; 
+margin-left: 122px;
+}
+/* Stats Section */
+.stats-total-bids {
+display: flex;
+gap: 80px;
+margin-bottom: 2px;
+}
+
+.stat-item-total-bids{
+text-align: center;
+}
+
+.stat-item-total-bids h3 {
+margin: 0;
+font-size: 16px;
+color: #888;
+font-family: 'Poppins','sans-serif';
+}
+
+.stat-item-total-bids p {
+margin: 15px  0px;
+font-size: 30px;
+font-weight: bold;
+color: #333;
+}
+
+/* Actions Section */
+.actions-total-bids{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
+.follow-btn-total-bids{
+background: linear-gradient(90deg, #1B63FF, #21E7B7);
+color: white;
+border: none;
+padding: 10px 85px;
+cursor: pointer;
+font-size: 16px;
+margin-right: -40px;
+margin-bottom: -5px;
+}
+
+.follow-btn-total-bids:hover {
+background: linear-gradient(90deg, #66d3fa, #1e87f0);
+}
+
+.share-total-bids{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
+.copy-box-total-bids{
+border: 1px solid rgb(232, 227, 227);
+padding: 0px 20px;
+}
+
+.box-copy-total-bids{
+margin-bottom: -20px;
+margin-left: 170px;
+margin-right: 20px;
+}
+
+.share-icon-total-bids{
+font-size: 18px;
+}
+/*---------------------------in nav-bar -----------------------------------*/
+.normal-navbar-total-bids{ 
+  font-family: 'Poppins','sans-serif';
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  }
+  
+  .nav-normal-container-total-bids{
+  width: 90%;
+  max-width: 1350px;
+  flex-direction: column;
+  margin-top: -990px;
+  }
+  
+  .nav-normal-total-bids{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background: #F9F9F9;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .normal-nav-total-bids ul{
+    float: right;
+    display: flex;
+    list-style: none;
+  }
+  
+  .normal-nav-total-bids li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 12px;
+   
+  }
+  .normal-nav-total-bids a{
+    text-decoration: none;
+    color: #000 ;
+    margin: 12px;
+    padding:50px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins','sans-serif';
+    border-radius: 5px;
+    transition: 0.3s;
   }
