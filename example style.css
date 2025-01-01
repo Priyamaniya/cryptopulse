@@ -152,51 +152,219 @@
 .featured-place-bid-2:hover {
   opacity: 0.9;
 }
-/*---------------------------in nav-bar -----------------------------------*/
-.normal-navbar-total-bids{ 
-  font-family: 'Poppins','sans-serif';
+
+/* styles.css */
+ body {
+  font-family: Arial, sans-serif;
   margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-  }
-  
-  .nav-normal-container-total-bids{
-  width: 90%;
-  max-width: 1350px;
-  flex-direction: column;
-  margin-top: -1130px;
-  }
-  
-  .nav-normal-total-bids{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding: 20px;
-  background: #F9F9F9;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  .normal-nav-total-bids ul{
-    float: right;
-    display: flex;
-    list-style: none;
-  }
-  
-  .normal-nav-total-bids li{
-    list-style: none;
-    display: inline-block;
-    margin: 0 12px;
-   
-  }
-  .normal-nav-total-bids a{
-    text-decoration: none;
-    color: #000 ;
-    margin: 12px;
-    padding:50px;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: 'Poppins','sans-serif';
-    border-radius: 5px;
-    transition: 0.3s;
-  }
+  background: linear-gradient(to bottom, #f4f8fb, #ffffff);
+}
+
+.card-container-total-bids {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-total-bids-5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  gap: 100px;
+}
+
+.profile-total-bids {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-total-bids img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid #007bff;
+}
+
+.info-total-bids h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.info-total-bids p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.images-total-bids {
+  display: flex;
+  gap: 10px;
+}
+
+.images-total-bids img {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.status-total-bids {
+  text-align: right;
+}
+
+.status-total-bids p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.accepted-total-bids {
+  color: green;
+  font-weight: bold;
+}
+
+.pending-total-bids {
+  color: orange;
+  font-weight: bold;
+}
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("image/Frame\ 1.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  height: 130px;
+  background-color: rgba(255, 255, 255, 0.08); /* Slight transparency */
+  box-sizing: border-box;
+}
+
+.logo img {
+  max-height: 60px;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu li {
+  position: relative;
+  margin: 0 15px;
+}
+
+.navbar-menu a {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 12px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.navbar-menu a:hover {
+  color: #21E7B7;
+}
+
+/* Dropdown Menu Styles */
+.dropdown-menu{
+  display:block ;
+  position: absolute;
+  background-color:#FFFFFF;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 10px;
+  left: 0px;
+  padding: 0px;
+  min-width: 200px;
+}
+.sub-dropdown-menu{
+  display:none;
+  position: absolute;
+  background-color:#FFFFFF;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 0px;
+  left: 100px;
+  padding: 0px;
+  min-width: 180px;
+
+}
+.dropdown:hover.dropdown-menu {
+  display: block;
+}
+.dropdown-item:hover .sub-dropdown-menu {
+  display: block;
+}
+.dropdown-item:hover .dropdown{
+  display: block;
+}
+
+.dropdown-menu li {
+  display: block;
+  text-align: start;
+  margin: 10px 20px;
+}
+
+.dropdown-menu a {
+  color:#000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+}
+.divider {
+  height: 1px;
+  background-color: #555; /* Line color */
+  margin: 15px 0; /* Spacing above and below */
+}
+
+/* Nested Dropdown Styling */
+.dropdown-menu.sub-dropdown-menu {
+  left: 100%;
+  top: 20px;
+}
+.fa-caret-down {
+  margin-left: 5px;
+  margin-top: 2px;
+}
+.fa-caret-right{
+  display: block;
+}
+.fa-caret-down,
+.fa-caret-right {
+  margin-left: 5px;
+  font-size: 14px;
+  vertical-align: middle;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.dropdown:hover .fa-caret-down {
+  color: #21E7B7;
+}
+
+.dropdown-menu .fa-caret-right{
+  color: #000;
+}
+
+
+
+

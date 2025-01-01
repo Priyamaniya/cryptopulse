@@ -4764,3 +4764,595 @@ font-size: 18px;
     border-radius: 5px;
     transition: 0.3s;
   }
+/*----------------------------------------------------------*/
+  .card-totalbids-5{
+    font-family: 'Poppins','sans-serif';
+    margin: 0;
+    padding: 85px;
+    justify-content: center;
+   }
+  
+  .card-container-total-bids-5{
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1350px; 
+    margin-top: -500px; 
+    margin-left: 85px;
+  }
+  
+  .card-total-bids-5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px 40px; 
+    gap: 100px;
+    margin-top: 40px;
+  }
+  
+  .profile-total-bids-5 {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+  
+  .profile-total-bids-5 img {
+    width: 125px;
+    height: 125px;
+    border-radius: 20%;
+  }
+  
+  .info-total-bids-5 h3 {
+    margin: 20px;
+    font-size: 1rem;
+    font-family: 'Poppins','sans-serif';
+  }
+  
+  .info-total-bids-5 p{
+    margin: 20px;
+    font-size: 0.85rem;
+    color:#1B63FF;
+    font-family: 'Poppins','sans-serif';
+  }
+  .info-total-bids-5 h4{
+   color: #555;
+   font-family: 'Poppins','sans-serif';
+   margin: 20px;
+  }
+  
+  .images-total-bids-5 {
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+  }
+  
+  .images-total-bids-5 img {
+    width: 125px;
+    height: 125px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  .status-total-bids-5 {
+    text-align: right;
+  }
+  
+  .status-total-bids-5 p {
+    margin: 0;
+    font-size: 0.9rem;
+    margin: 20px;
+  }
+  
+  .accepted-total-bids-5 {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .pending-total-bids-5 {
+    color: orange;
+    font-weight: bold;
+  }
+/*--------------------------------------------butoon----------------------------------------------------*/
+.total-bids-pagination {
+  display: flex;
+  margin-left: 1250px; 
+  margin-top: -40px;/* Center the buttons horizontally */
+}
+
+.total-bids-pagination button {
+  border: 1px solid #ccc;
+  padding: 15px 20px;
+  margin: 0 5px; /* Add spacing between buttons */
+  border-radius: 3px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.total-bids-pagination button.active{
+  background-color:#007bff; /* Blue background for active button */
+  color: #fff;
+}
+.total-bids-pagination button:hover{
+  background-color:#007bff; /* Blue background for active button */
+  color: #fff;
+}
+
+.total-bids-pagination button.prev,
+.total-bids--pagination button.next {
+  width: 30px; /* Adjust width as needed */
+  text-align: center;
+}
+/*---------------------------------------------footer4.5------------------------------------------------*/
+.total-bids-footer-4{
+  background-color:#131927 ;
+  color: #FFFFFF;
+  padding:  20px;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  margin-top: 50px;
+
+}
+
+.total-bids-footer-container-4{
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.total-bids-footer-logo-4{
+    margin-left: 200px;
+    display: flex;
+    margin-top: 50px;
+}
+.total-bids-footer-main-4{
+  max-width: 430px;
+    margin-right: 124px;
+    margin-left: -210px;
+}
+.total-bids-footer-main-4 p {
+  margin: 50px;
+  font-size: 13px;
+  color: #FFFFFF;
+  margin-top: 150px;
+  font-weight: 400;
+  font-family:'Poppins',sans-serif;
+}
+
+.total-bids-footer-section-4 {
+  flex: 1;
+  min-width: 150px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  letter-spacing: 0000.5sem;
+  
+}
+
+.total-bids-footer-section-4 h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.total-bids-footer-section-4 ul {
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+  word-spacing: 5px; 
+}
+
+.total-bids-footer-section-4 ul li {
+  margin-bottom: 10px 0;
+}
+
+.total-bids-footer-section-4 ul li a {
+  text-decoration: none;
+  color: #d1d5db;
+  transition: color 0.3s;
+  margin-bottom: 5px;
+  
+}
+
+.total-bids-footer-section-4 ul li a:hover {
+  color: #f3f4f6;
+}
+
+.total-bids-footer-bottom-4 {
+  text-align: right;
+  padding-top: 20px;
+  border-top: 1px solid #2f3e53;
+  margin-top: 20px;
+}
+
+.total-bids-footer-bottom-4 a {
+  color: #f3f4f6;
+  text-decoration: none;
+}
+
+.total-bids-footer-bottom-4 a:hover {
+  color: #9ca3af;
+}
+/*------------------------------------------------ART PAGE-------------------------------------------*/
+.Art-header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("image/background-5.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav.Art-logo{
+  float: left;
+  display: flex;
+}
+
+.Art-navbar{ 
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+padding: 20px;
+width: 100%;
+height: 130px;
+position: relative;
+background-color: #FFFFFF14;
+box-sizing: border-box;
+}
+.Art-navbar-menu ul{
+  float: right;
+  display: flex;
+  list-style: none;
+}
+
+.Art-navbar-menu li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 12px;
+ 
+}
+.Art-navbar-menu a{
+  text-decoration: none;
+  color: #fff;
+  margin: 12px;
+  padding:8px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Poppins','sans-serif';
+  border-radius: 5px;
+  transition: 0.3s;
+  
+}
+.Art-navbar-menu a:hover{
+  color: #21E7B7;
+
+}
+.Art-text{
+  font-family: 'Poppins','sans-serif';
+  width:40%;
+  color: #f2f2f2;
+  position: absolute;
+  top:60%;
+  left:35%;
+  transform: translate(-50%,-50%);
+  font-size: 40px;
+}
+/*--------------------------------------------------cards art------------------------------------------*/
+.arts-artwork-2-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  padding: 180px;
+  gap: 60px;
+  margin-top: -100px;
+
+}
+.arts-art-2-card{
+  width: 330px;
+  height: 590px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  margin-top: 0px;
+}
+
+.arts-image-1,
+.arts-image-2,
+.arts-image-3,
+.arts-image-4,
+.arts-image-5,
+.arts-image-6,
+.arts-image-7,
+.arts-image-8,
+.arts-image-9{
+  position: relative;
+  width: 100%;
+  height: 270px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow:hidden;
+}
+.arts-image-1 img{
+  height: 370px;
+  border-radius: 10px;
+  background:#F4D7EE;
+}
+.arts-image-2 img {
+  height: 380px;
+  border-radius: 10px;
+  background:#CACDC9;
+}
+.arts-image-3 img{
+   height: 350px;
+  border-radius: 10px;
+  background:#ACEAED;
+}
+.arts-image-4 img{
+  height: 370px;
+ border-radius: 10px;
+ background:#B6A7F9;
+}
+.arts-image-5 img {
+  height: 370px;
+  border-radius: 10px;
+  background:#BFBCE9;
+}
+.arts-image-6 img {
+  height: 370px;
+  width: -90px;
+  border-radius: 20px;
+  background:#b98c07;
+}
+.arts-image-7 img {
+  height: 370px;
+  border-radius: 10px;
+  background:#CACDC9;
+}
+.arts-image-8 img {
+  height: 370px;
+  border-radius: 10px;
+  background:#CACDC9;
+}
+.arts-image-9 img {
+  height: 370px;
+  border-radius: 10px;
+  background:#CACDC9;
+}
+
+
+.arts-2-featured{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #fbbf24;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+
+}
+.arts-timer-2{
+  position: absolute;
+  bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #000;
+  padding: 5px 15px;
+  font-size: 16px;
+  font-weight: 500;
+
+}
+.arts-heart-2-icon{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+
+}
+.arts-info-2{
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #FFFFFF;
+
+}
+.arts-user-2{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: flex;
+
+}
+.arts-info-2 h4{
+  margin: 20px 30px;
+  font-size: 20px;
+  color: #555;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+.arts-info .arts-user-2 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+.arts-title-2{
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  font-family: 'Poppins', sans-serif;
+
+}
+.arts-current-bid-2{
+  font-size: 14px;
+  color: #777;
+  font-family: 'Poppins', sans-serif;
+  margin: 10px 0;
+
+}
+.arts-bid-amount-2{
+  font-size: 18px;
+  font-weight: 700;
+  color: #1B63FF;
+  float: left;
+  font-family: 'Poppins', sans-serif;
+
+}
+.arts-activity-2{
+  float: right;
+  font-family: 'Poppins', sans-serif;
+  color: #777;
+
+}
+.arts-place-bid-2{
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(92.74deg, #1B63FF 0.47%, #21E7B7 100%);
+  color: #fff;
+  width: 100%;
+  height: 40px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  
+
+}
+.arts-place-bid-2:hover {
+  opacity: 0.9;
+}
+/*--------------------------------------------butoon----------------------------------------------------*/
+.arts-pagination {
+  display: flex;
+  margin-left: 1250px; 
+  margin-top: -150px;/* Center the buttons horizontally */
+}
+
+.arts-pagination button {
+  border: 1px solid #ccc;
+  padding: 15px 20px;
+  margin: 0 5px; /* Add spacing between buttons */
+  border-radius: 3px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.arts-pagination button.active{
+  background-color:#007bff; /* Blue background for active button */
+  color: #fff;
+}
+.arts-pagination button:hover{
+  background-color:#007bff; /* Blue background for active button */
+  color: #fff;
+}
+
+.arts-pagination button.prev,
+.arts--pagination button.next {
+  width: 30px; /* Adjust width as needed */
+  text-align: center;
+}
+/*---------------------------------------------footer-5------------------------------------------------*/
+.arts-footer-5{
+  background-color:#131927 ;
+  color: #FFFFFF;
+  padding:  20px;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  margin-top: 70px;
+
+}
+
+.arts-footer-container-5{
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.arts-footer-logo-5 {
+    margin-left: 200px;
+    display: flex;
+    margin-top: 50px;
+}
+.arts-footer-main-5{
+  max-width: 430px;
+    margin-right: 124px;
+    margin-left: -210px;
+}
+.arts-footer-main-5 p {
+  margin: 50px;
+  font-size: 13px;
+  color: #FFFFFF;
+  margin-top: 150px;
+  font-weight: 400;
+  font-family:'Poppins',sans-serif;
+}
+
+.arts-footer-section-5 {
+  flex: 1;
+  min-width: 150px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  letter-spacing: 0000.5sem;
+  
+}
+
+.arts-footer-section-5 h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.arts-footer-section-5 ul {
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+  word-spacing: 5px; 
+}
+
+.arts-footer-section-5 ul li {
+  margin-bottom: 10px 0;
+}
+
+.arts-footer-section-5 ul li a {
+  text-decoration: none;
+  color: #d1d5db;
+  transition: color 0.3s;
+  margin-bottom: 5px;
+  
+}
+
+.arts-footer-section-5 ul li a:hover {
+  color: #f3f4f6;
+}
+
+.arts-footer-bottom-5 {
+  text-align: right;
+  padding-top: 20px;
+  border-top: 1px solid #2f3e53;
+  margin-top: 20px;
+}
+
+.arts-footer-bottom-5 a {
+  color: #f3f4f6;
+  text-decoration: none;
+}
+
+.arts-footer-bottom-5 a:hover {
+  color: #9ca3af;
+}
+
+
+
+
